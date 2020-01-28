@@ -45,6 +45,7 @@
   pip:
     name: docker-compose
     state: latest
+    executable: pip3
 
 - name: Create /etc/docker-compose
   file:
